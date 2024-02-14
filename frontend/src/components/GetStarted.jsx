@@ -6,9 +6,9 @@ export default function GetStarted() {
       <div className="w-full rounded-lg sm:px-6 py-6 px-3 shadow-md bg-gray-400/0 bg-clip-padding backdrop-filter backdrop-blur-lg">
         <div className="flex gap-2 items-center mb-1">
           <img
-            src="https://www.svgrepo.com/show/514289/wave.svg"
+            src="https://www.svgrepo.com/show/232330/chat.svg"
             alt="logo"
-            width={30}
+            width={35}
           />
           <h1 className="font-semibold text-2xl text-gray-300">WhisperWave</h1>
         </div>
