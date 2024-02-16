@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://whisperwave-client.vercel.app/"],
+    origin: ["https://whisperwave-client.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"], // Specify the allowed HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Specify the allowed headers
     credentials: true, // Enable credentials (cookies, authorization headers, etc)
