@@ -12,7 +12,7 @@ export const SocketContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io("https://whisperwave-server.vercel.app/", {
+      const socket = io("https://whisperwave-server.vercel.app", {
         query: { userId: authUser._id },
       });
 

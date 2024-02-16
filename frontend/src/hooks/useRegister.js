@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { useAuthContext } from "../context/AuthContext";
 
 export default function useRegister() {
-  const BASE_URL = "https://whisperwave-server.vercel.app//api";
+  const BASE_URL = "https://whisperwave-server.vercel.app/api";
 
   const [loading, setLoading] = useState(false);
   const { setAuthUser } = useAuthContext();

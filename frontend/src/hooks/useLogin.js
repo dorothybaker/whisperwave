@@ -4,7 +4,7 @@ import { useAuthContext } from "../context/AuthContext";
 
 export default function useLogin() {
   const [loading, setLoading] = useState(false);
-  const BASE_URL = "https://whisperwave-server.vercel.app//api";
+  const BASE_URL = "https://whisperwave-server.vercel.app/api";
   const { setAuthUser } = useAuthContext();
 
   const handleErrors = (username, password) => {

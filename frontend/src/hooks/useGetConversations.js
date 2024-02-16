@@ -5,7 +5,7 @@ export default function useGetConversations() {
   const [loading, setLoading] = useState(false);
   const [conversations, setConversations] = useState([]);
 
-  const BASE_URL = "https://whisperwave-server.vercel.app//api";
+  const BASE_URL = "https://whisperwave-server.vercel.app/api";
 
   useEffect(() => {
     const getConversations = async () => {

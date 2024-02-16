@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["https://whisperwave-client.vercel.app/"],
+    origin: ["https://whisperwave-client.vercel.app"],
     methods: ["GET", "POST"],
   },
 });
