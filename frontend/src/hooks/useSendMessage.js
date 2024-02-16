@@ -3,7 +3,7 @@ import useConversation from "../store/useConversation";
 import { toast } from "react-toastify";
 
 export default function useSendMessage() {
-  const BASE_URL = "http://localhost:8000/api";
+  const BASE_URL = "https://whisperwave-server.vercel.app//api";
 
   const [loading, setLoading] = useState(false);
   const { messages, setMessages, selectedConversation } = useConversation();

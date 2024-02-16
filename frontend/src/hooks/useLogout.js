@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 export default function useLogout() {
   const [loading, setLoading] = useState(false);
-  const BASE_URL = "http://localhost:8000/api";
+  const BASE_URL = "https://whisperwave-server.vercel.app//api";
   const { setAuthUser } = useAuthContext();
 
   const logout = async () => {
